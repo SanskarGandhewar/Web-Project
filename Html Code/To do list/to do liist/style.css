@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(18, 17, 16);
+  font-family: 'poppons' , sans-serif;
+
+  
+}
+.container{
+  width: 360px;
+  padding: 33px;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 33%;
+  margin-top: 5px;
+}
+input{
+  width: 270px;
+  padding: 8px;
+  border: 2px solid rgb(7, 57, 57);
+  outline: none;
+  font-size: 19px;
+}
+
+button{
+  width: 60px;
+  height: 41px;
+  background-color:  rgb(236, 249, 248);
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 19px;
+  border: none;
+  outline: none;
+}
+.text ul{
+  position: relative;
+  background-color:rgb(7, 57, 57);
+  color: #fff;
+  font-size: 19px;
+  padding: 7px;
+  text-align: left;
+}
+.text ul i{
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 1.1rem;
+  padding: 10px 6px 10px 30px;
+  cursor: pointer;
+  position: relative;
+}
+ul li::before{
+  content: ☐;
+  font-size: 25px;
+  position: absolute;
+  left: -1px;
+  top: 4px;
+}
+.task-list{
+  padding: 8px 30px;
+
+}
+ul li.checked{
+  text-decoration: line-through;
+  color: #632fff;
+
+}
+ul li.checked::before{
+  content:✓ ;
+  color: #632fff;
+}
+
+
+
+
